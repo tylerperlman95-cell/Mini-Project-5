@@ -90,3 +90,11 @@
 .destination-info ul {
     font-size: 30px;
 }
+
+.creator-image img {
+    width: 60%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 20px auto:
+}
