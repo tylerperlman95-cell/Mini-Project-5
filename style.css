@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 20px;
-    color: rgb(1, 1, 1);
+    color: rgb(218, 15, 15);
     background: linear-gradient(
         to top,
         rgba(223, 253, 1, 0.75),
@@ -38,8 +38,8 @@
 
 .image-overlay h3 {
     margin: 0 0 8px;
-    font-size: 22px;
-    color: rgb(10, 10, 10);
+    font-size: 30px;
+    color: rgb(239, 0, 0);
     text-shadow: 2px 2px 4px rgb(255, 225, 0);
 }
 
@@ -166,4 +166,107 @@
     .destinations-page .destination-grid {
         grid-template-columns: 1fr;
     }
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    justify-items: center;
+}
+
+
+footer {
+    text-align: center;
+}
+body {
+    background-color: rgb(117, 217, 250);
+
+    h1, h2 {
+    color: rgb(252, 248, 4);
+    }
+
+    h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.creator-image img {
+    display: block;
+    margin: 20px auto;
+
+ }
+  nav a {
+    color: #123b5d;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 25px;
+    border: 2px solid #123b5d;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffdf00;
+    color: #123b5d;
+    border-color: #ffdf00;
+    transform: translateY(-3px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+form input,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+form textarea {
+    min-height: 120px;
+}
+
+p {
+    font-size: 24px;
+}
+footer {
+    font-size: 20px;
 }
